@@ -6,6 +6,16 @@ Libraries like [Functional Java](http://www.functionaljava.org/) supplement the 
 However, at times even they feel inadequate if you have been working with proper functional languages like Scala or Haskell for a while. Hence, this is a set of utilities
 to make life easier for those who are forced to use Java but are suffering from Scala/Haskell/Rust/<insert functional language> withdrawal.
 
+Releases are available in Maven Central
+
+
+```xml
+<dependency>
+    <groupId>com.github.charithe</groupId>
+    <artifactId>functional-java-plus</artifactId>
+    <version>0.0.1</version>
+</dependency>
+```
 
 
 Try
