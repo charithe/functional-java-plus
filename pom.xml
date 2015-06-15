@@ -4,7 +4,7 @@
 
     <groupId>com.github.charithe</groupId>
     <artifactId>funactional-java-plus</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <name>Functional Java Plus</name>
     <description>Java adaptations of concepts from other functional languages</description>
