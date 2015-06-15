@@ -57,7 +57,7 @@ public class Try<T> {
     /**
      * Returns the success value if this is a success. Otherwise, throws an exception.
      * @return Success value if present
-     * @throws {@link com.github.charithe.fjp.Try.CallingSuccessOnFailureValue}
+     * @throws com.github.charithe.fjp.Try.CallingSuccessOnFailureValue
      */
     public T success() {
         if (tryState.isRight()) {
@@ -70,7 +70,7 @@ public class Try<T> {
     /**
      * Returns the failure value if this is a failure. Otherwise, throws an exception.
      * @return Failure value if present
-     * @throws {@link com.github.charithe.fjp.Try.CallingFailureOnSuccessValue}
+     * @throws com.github.charithe.fjp.Try.CallingFailureOnSuccessValue
      */
     public Throwable failure() {
         if(tryState.isLeft()) {
