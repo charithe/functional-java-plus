@@ -13,7 +13,7 @@ Releases are available in Maven Central
 <dependency>
     <groupId>com.github.charithe</groupId>
     <artifactId>functional-java-plus</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```
 
